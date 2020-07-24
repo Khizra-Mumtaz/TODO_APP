@@ -1,0 +1,90 @@
+body{
+    text-align: center;
+    
+}
+
+div{
+    background-color: thistle;
+    color: purple;
+    margin: 5% 25%;
+    padding: 5%;
+    border:2px solid purple;
+box-shadow: 2px 2px 8px grey;
+border-radius: 5px;
+}
+
+@media only screen and (max-width: 900px){
+
+    div{
+        margin: 2% 10%;
+        padding: 1%;
+    }
+    li{
+        margin: 0 10%;
+    }
+
+    input[type=text]{
+        max-width: 100px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+
+    div{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    li{
+        margin: 0;
+    }
+}
+
+
+
+h1{
+    color: purple;
+    text-decoration: purple double underline;
+    font-weight: 900;
+    font-size: 2em;
+}
+li{
+    list-style: disc;
+    border-bottom: 2px solid purple;
+    margin: 0 30%;
+    font-weight: 800;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+button{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    background-color: inherit ;
+color: purple;
+margin: 1% 1%;
+padding: 0.5%;
+border:2px solid purple;
+box-shadow: 2px 2px 8px grey;
+border-radius: 5px;}
+
+input[type=text]{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    background-color:rgb(226, 210, 226) ;
+    color: purple;
+    padding: 0.5%;
+border:2px solid purple;
+box-shadow: 2px 2px 8px grey;
+border-radius: 5px;
+}
+
+input[type=text]:focus{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    background-color:rgb(226, 210, 226) ;
+    color: purple;
+    padding: 0.5%;
+border:2px solid purple;
+box-shadow: 2px 2px 8px grey;
+border-radius: 5px;
+}
